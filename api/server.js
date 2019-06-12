@@ -1,7 +1,7 @@
 const express = require('express'); // importing a CommonJS module
 const helmet = require('helmet');
 const cors = require('cors');
-const apiRoute = require('./routes/api/index.js');
+const apiRoute = require('../routes/api/index.js');
 const server = express();
 
 
